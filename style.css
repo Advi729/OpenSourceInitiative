@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    line-height: 160%;
+}
+.container{
+    width: 100%;
+    min-height: 50px;
+    background: #fcfcfc;
+}
+ul{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    padding-left: 186px;
+
+}
+.search-bar{
+    width: 20%;
+    float: right;
+    display: flex;
+    margin-right: 91px;
+    background: #fcfcfc;
+    color: #999999;
+}
+.search-bar p{
+    margin-top: 16px;
+    padding: 0;
+}
+.header-list{
+    width: 256px;
+    float: left;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 30px;
+    padding-top: 12px;   
+}
+.header-list a{
+    color:  #3da639;
+}
+.btn{
+    background-color: #fcfcfc;
+    margin-left: 15px;
+    border: 0;
+    cursor:pointer;
+}
+.site-logo a{
+    height: 90px;
+    width: 90px;
+    margin-left: 197px;
+    margin-top: 22px;
+    display: flex;
+}
+.site-name a {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1em;
+    margin-left: 334px;
+    margin-top: -64px;
+    color: #444444;
+    display: flex;
+}
+#main-nav{
+    border: 3px solid #1E531D;
+    background-color: #3DA639;
+    position: relative;
+    z-index: 11;
+    width: 100%;
+    height: 65px;
+    margin-top: 52px;
+}
+.nav-list{
+    width: 1018px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 205px;
+    padding-top: 25px;
+    
+}
+.nav-list a {
+ 
+    font-weight: 700;
+    line-height: 1em;
+    color:#fcfcfc;
+}
+p {
+    margin: 0 0 25px;
+    padding: 0;
+}
+
+h1.page-title {
+    font-size: 32px;
+    color:#444;
+    margin-top: 55px;
+    padding-top: 10px;
+}
+h1 {
+    font-size: 32px;
+    display: block;
+    margin-top: 60px;
+}
+h1, h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    padding: 0;
+    margin: 20px 0 10px 0;
+    font-family: 'Open Sans',sans-serif;
+}
+.middle-content{
+    margin-left: 275px;
+    margin-right: 275px;
+}
+h1 a, h2 a{
+    color: #444;
+}
+.description a,.container-footer a{
+    color:#3DA639
+}
+#bottom-content{
+    background-color: #222222;
+    padding-top: 60px;
+    color: #ffffff;
+    height: 320px;
+    width: 100%;
+}
+.container-bottom,.container-footer{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+#footer {
+    background-color: #fcfcfc;
+    border-top: 1px solid #eaeaea;
+    padding: 40px 0 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 493px;
+    margin-top: 10px;
+}
+
+   
